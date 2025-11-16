@@ -1,0 +1,28 @@
+mongodb
+User: saurabhkumar79_db_user
+pwd: 40jHnGOCVoLiDD1t
+
+usr: saurabh
+pwd: saurabh7879
+
+python -m pip install "pymongo[srv]"
+
+mongodb+srv://saurabhkumar79_db_user:<db_password>@cluster0.7rqjrgp.mongodb.net/?appName=Cluster0
+mongodb+srv://saurabh:saurabh7879@genapi.0e440re.mongodb.net/?appName=GenAPI
+
+
+DB: GenAPIDB
+Coll: GenAPIDB_Coll
+Cluster: GenAPI
+
+python -m uvicorn main:app --reload
+
+Cretae env:
+python -m venv genaienv
+
+set env:
+.\genaienv\Scripts\activate
+
+
+Install All required software:
+pip install -r .\requirements.txt
